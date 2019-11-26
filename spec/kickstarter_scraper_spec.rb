@@ -1,5 +1,7 @@
 describe "#create_project_hash" do
-# projects: kickstarter.css("li.project.grid_4")
+  # projects: kickstarter.css("li.project.grid_4")
+  # title: project.css("h2.bbcard_name strong a").text
+  # image link: project.css("div.project-thumbnail a img").attribute("src").value
   it "can be called on with no errors" do
     expect {create_project_hash}.to_not raise_error
   end
