@@ -1,5 +1,6 @@
 # require libraries/modules here
-require 'pry'
+require "pry"
+require "nikogiri"
 def create_project_hash
   # write your code here
   html = File.read('fixtures/kickstarter.html')
